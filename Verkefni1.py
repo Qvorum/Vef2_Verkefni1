@@ -3,6 +3,6 @@ import os
 
 @route('/')
 def index():
-    return "Bottle er drasl"
+    return "Halló heimur nú er gaman..."
 
-run(host="0.0.0.0", port=os.environ.get('PORT'))
+run(host='0.0.0.0', port=os.environ.get('PORT'))
