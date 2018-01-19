@@ -11,4 +11,5 @@ def index():
 @error(404)
 def villa(error):
 	return "<h2>Þessi síða er ekki til, reyndu aftur!</h2>"
-run(host="localhost", port=8080)
+run(host='0.0.0.0', port=os.environ.get('PORT'))
+#run(host='localhost', port=8080)
