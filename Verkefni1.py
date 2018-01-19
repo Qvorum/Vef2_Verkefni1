@@ -1,5 +1,5 @@
 from bottle import *
-
+import os
 @route('/')
 def index():
     return "<a href='/sida/1'>Hlekkur 1</a> , <a href='/sida/2'>Hlekkur 2</a> , <a href='/sida/3'>Hlekkur 3</a>"
