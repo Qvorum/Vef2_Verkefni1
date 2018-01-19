@@ -3,7 +3,6 @@ import os
 
 @route('/')
 def index():
-    return "Gaman..."
+    return "Bottle er drasl"
 
-run(host='0.0.0.0', port=os.environ.get('PORT'))
-#run(host='localhost', port=8080)
+run(host="0.0.0.0", port=os.environ.get('PORT'))
